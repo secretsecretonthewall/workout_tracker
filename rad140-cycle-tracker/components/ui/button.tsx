@@ -1,1 +1,0 @@
-export function Button({ children, onClick, variant = 'default', size = 'base', className = '' }) { return <button onClick={onClick} className={`px-3 py-1 rounded ${variant === 'outline' ? 'border' : 'bg-blue-500 text-white'} ${className}`}>{children}</button>; }
